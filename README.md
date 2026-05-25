@@ -124,10 +124,6 @@ npm run dev
 # Frontend
 cd frontend
 npm run dev
-
-# Client Library
-cd client-library
-npm test  # (if configured)
 ```
 
 ## 👤 Author
