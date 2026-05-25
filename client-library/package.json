@@ -1,0 +1,26 @@
+{
+    "name": "log-manager-client",
+    "version": "1.0.0",
+    "description": "Client library for Log Manager - Send logs to your Log Manager backend",
+    "main": "index.js",
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./index.js",
+            "require": "./index.js"
+        }
+    },
+    "keywords": [
+        "logging",
+        "logger",
+        "logs",
+        "monitoring",
+        "debug"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^1.6.0",
+        "log-manager": "file:.."
+    }
+}
